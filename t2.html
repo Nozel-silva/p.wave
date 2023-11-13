@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Hall of fame</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+   
+
+    <!-- temp 2-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-festava-live.css" rel="stylesheet">
+
+  <style>
+    body{
+      background-color: rgba(23,35,58,0.99);
+
+    }
+    table {
+      margin-top: 70px;
+      background-color: rgba(22,34,57,0.99);
+      color: white;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .top{
+      margin-top: 80px;
+      color: #FC3;
+      text-align: center;
+      opacity: 0.5;
+    }
+    .top i{
+      color: #3CF;
+    }
+
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+      background-color:;
+    }
+
+    th {
+      background-color: gray;
+    }
+
+    .profile-details {
+      margin-top: 50px;
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.9);
+      text-align: center;
+    }
+
+    .profile-image {
+      padding-top: 58px;
+      max-width: 500px;
+      max-height: 100%;
+      padding-bottom: 40px;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 55px;
+      right: 30px;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<!--header-->
+  <header class="site-header">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-g-12 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            
+                            <strong class="text-dark">HALL OF FAME 2018/19</strong>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    P.WAVES
+                </a>
+
+                
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="info.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_3">Articles</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_6">Contact</a>
+                        </li>
+                    </ul>
+
+                    <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+<table>
+  <tr>
+    <th>Serial No</th>
+    <th>Names</th>
+    <th>Profile</th>
+  </tr>
+    <td>1</td>
+    <td> Peter Emmanuel ADENIKE</td>
+    <td><button onclick="showProfile(1)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td> Emeka Emmanuel (Nuel) AGAFIE</td>
+    <td><button onclick="showProfile(2)">View Profile</button></td>
+  </tr>
+  <tr>
+  <tr>
+    <td>3</td>
+    <td>Oghosa goodness AGHAMWONYI</td>
+    <td><button onclick="showProfile(3)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Osadebamwen Samuel AHANOR</td>
+    <td><button onclick="showProfile(4)">View Profile</button></td>
+  </tr>
+<tr>
+    <td>5</td>
+    <td>Edosa AIWANSOBA</td>
+    <td><button onclick="showProfile(5)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Emmanuel Oshoke AJEGBA </td>
+    <td><button onclick="showProfile(6)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Amos francis AKWEMOH </td>
+    <td><button onclick="showProfile(7)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Nnamdi Joshua ALI</td>
+    <td><button onclick="showProfile(8)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Paul ahkere ATOE</td>
+    <td><button onclick="showProfile(9)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Osaertin BALOGBAN</td>
+    <td><button onclick="showProfile(10)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>obaro Daniel DIETAKE</td>
+    <td><button onclick="showProfile(11)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Marvelous EBOIGBE</td>
+    <td><button onclick="showProfile(12)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Oghale Emmanuella EJEKE  (ACR)</td>
+    <td><button onclick="showProfile(13)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Yusuf erifeta ESENE</td>
+    <td><button onclick="showProfile(14)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Godstime OSSAI</td>
+    <td><button onclick="showProfile(15)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Joshua IMOLOGHOMHE</td>
+    <td><button onclick="showProfile(16)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Junior oviyenze IROBO</td>
+    <td><button onclick="showProfile(17)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Isreal kenneth-ONAGHISE</td>
+    <td><button onclick="showProfile(18)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>John osakpanmwan OSAIGBOVO</td>
+    <td><button onclick="showProfile(19)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Joshua ohiremen OISEMAYE</td>
+    <td><button onclick="showProfile(20)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Victor MOMOH</td>
+    <td><button onclick="showProfile(21)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Richardson idowu  MOMOH </td>
+    <td><button onclick="showProfile(22)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Emmanuel NWAOMONOH </td>
+    <td><button onclick="showProfile(23)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>sunday omogiade OBASUYI</td>
+    <td><button onclick="showProfile(24)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Obaro timothy ODEH</td>
+    <td><button onclick="showProfile(25)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Clinton osarenkhoe  OGBOMO </td>
+    <td><button onclick="showProfile(26)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Michael OGEDENGBE </td>
+    <td><button onclick="showProfile(27)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Daniel OKAKA</td>
+    <td><button onclick="showProfile(28)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Innocent nzubechukwu  OKEKE </td>
+    <td><button onclick="showProfile(29)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>solomon edosa OMOIKE</td>
+    <td><button onclick="showProfile(30)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>ikechukwu ONAH</td>
+    <td><button onclick="showProfile(31)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>Kevwe ONORHIVWE</td>
+    <td><button onclick="showProfile(32)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>Solomon ONOTERE</td>
+    <td><button onclick="showProfile(33)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>favour  OSADOLOR </td>
+    <td><button onclick="showProfile(34)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>Aisosa victor OTABOR</td>
+    <td><button onclick="showProfile(35)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>Ogho OVIE-NYOREME</td>
+    <td><button onclick="showProfile(36)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>37</td>
+    <td>promise ogheneyerhovwo IYOMI</td>
+    <td><button onclick="showProfile(37)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>38</td>
+    <td>Solomon Nob OSIOZOKHAI </td>
+    <td><button onclick="showProfile(38)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>39</td>
+    <td>esibuamhe uriel  ULOKO</td>
+    <td><button onclick="showProfile(39)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>Sophia Adesuwa VAL-IZEVBIGIE</td>
+    <td><button onclick="showProfile(40)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td>Winnie Anwulika YOUNG</td>
+    <td><button onclick="showProfile(41)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td>Samuel uyi EGBONMWAN</td>
+    <td><button onclick="showProfile(42)">View Profile</button></td>
+  </tr>
+  <tr>
+    <td>43</td>
+    <td>osakpolor larry OMOROGBE</td>
+    <td><button onclick="showProfile(43)">View Profile</button></td>
+  </tr>
+</table>
+
+<div class="profile-details" id="profile-1">
+  <span class="close-button" onclick="closeProfile(1)">&times;</span>
+  <img src="images/adenike.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-2">
+  <span class="close-button" onclick="closeProfile(2)">&times;</span>
+  <img src="images/nuel.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-3">
+  <span class="close-button" onclick="closeProfile(3)">&times;</span>
+  <img src="images/barry.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-4">
+  <span class="close-button" onclick="closeProfile(4)">&times;</span>
+  <img src="images/ahanor.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-5">
+  <span class="close-button" onclick="closeProfile(5)">&times;</span>
+  <img src="images/edosa.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-6">
+  <span class="close-button" onclick="closeProfile(6)">&times;</span>
+  <img src="images/ajegba.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-7">
+  <span class="close-button" onclick="closeProfile(7)">&times;</span>
+  <img src="images/amos.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-8">
+  <span class="close-button" onclick="closeProfile(8)">&times;</span>
+  <img src="images/ali.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-9">
+  <span class="close-button" onclick="closeProfile(9)">&times;</span>
+  <img src="images/atoe.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-10">
+  <span class="close-button" onclick="closeProfile(10)">&times;</span>
+  <img src="images/mark.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-11">
+  <span class="close-button" onclick="closeProfile(11)">&times;</span>
+  <img src="images/obaro.jpg" class="profile-image" alt="Profile Image">
+</div>
+
+<div class="profile-details" id="profile-12">
+  <span class="close-button" onclick="closeProfile(12)">&times;</span>
+  <img src="images/marvelous.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-13">
+  <span class="close-button" onclick="closeProfile(13)">&times;</span>
+  <img src="images/emmah.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-14">
+  <span class="close-button" onclick="closeProfile(14)">&times;</span>
+  <img src="images/efe.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-15">
+  <span class="close-button" onclick="closeProfile(15)">&times;</span>
+  <img src="images/godstime.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-16">
+  <span class="close-button" onclick="closeProfile(16)">&times;</span>
+  <img src="images/imolog.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-17">
+  <span class="close-button" onclick="closeProfile(17)">&times;</span>
+  <img src="images/godwin.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-18">
+  <span class="close-button" onclick="closeProfile(18)">&times;</span>
+  <img src="images/israel.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-19">
+  <span class="close-button" onclick="closeProfile(19)">&times;</span>
+  <img src="images/john.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-20">
+  <span class="close-button" onclick="closeProfile(20)">&times;</span>
+  <img src="images/joshua.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-21">
+  <span class="close-button" onclick="closeProfile(21)">&times;</span>
+  <img src="images/vass.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-22">
+  <span class="close-button" onclick="closeProfile(22)">&times;</span>
+  <img src="images/richie.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-23">
+  <span class="close-button" onclick="closeProfile(23)">&times;</span>
+  <img src="images/teddy.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-24">
+  <span class="close-button" onclick="closeProfile(24)">&times;</span>
+  <img src="images/perry.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-25">
+  <span class="close-button" onclick="closeProfile(25)">&times;</span>
+  <img src="images/timothy.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-26">
+  <span class="close-button" onclick="closeProfile(26)">&times;</span>
+  <img src="images/clinton.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-27">
+  <span class="close-button" onclick="closeProfile(27)">&times;</span>
+  <img src="images/michael.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-28">
+  <span class="close-button" onclick="closeProfile(28)">&times;</span>
+  <img src="images/okaka.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-29">
+  <span class="close-button" onclick="closeProfile(29)">&times;</span>
+  <img src="images/innocent.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-30">
+  <span class="close-button" onclick="closeProfile(30)">&times;</span>
+  <img src="images/omoike.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-31">
+  <span class="close-button" onclick="closeProfile(31)">&times;</span>
+  <img src="images/onah.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-32">
+  <span class="close-button" onclick="closeProfile(32)">&times;</span>
+  <img src="images/kewe.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-33">
+  <span class="close-button" onclick="closeProfile(33)">&times;</span>
+  <img src="images/onotere.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-34">
+  <span class="close-button" onclick="closeProfile(34)">&times;</span>
+  <img src="images/favour.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-35">
+  <span class="close-button" onclick="closeProfile(35)">&times;</span>
+  <img src="images/aisosa.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-36">
+  <span class="close-button" onclick="closeProfile(36)">&times;</span>
+  <img src="images/afure.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-37">
+  <span class="close-button" onclick="closeProfile(37)">&times;</span>
+  <img src="images/promise.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-38">
+  <span class="close-button" onclick="closeProfile(38)">&times;</span>
+  <img src="images/nob.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-39">
+  <span class="close-button" onclick="closeProfile(39)">&times;</span>
+  <img src="images/uriel.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-40">
+  <span class="close-button" onclick="closeProfile(40)">&times;</span>
+  <img src="images/val.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-41">
+  <span class="close-button" onclick="closeProfile(41)">&times;</span>
+  <img src="images/winnie.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-42">
+  <span class="close-button" onclick="closeProfile(42)">&times;</span>
+  <img src="images/uyi.jpg" class="profile-image" alt="Profile Image">
+</div>
+<div class="profile-details" id="profile-43">
+  <span class="close-button" onclick="closeProfile(43)">&times;</span>
+  <img src="images/larry.jpg" class="profile-image" alt="Profile Image">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p><i class="fa fa-copyright"></i> Copyright 2023 by NUEL  
+          
+           | Design: <a href="https://templatemo.com" rel="sponsored" target="_parent">TemplateMo & Nuel</a><br>
+           Created By: <a href="https://x.The_weakend.com" rel="sponsored" target="_blank">Nozel_Nuel</a>
+          
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/b ootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/slick-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+function alat(){
+  alert("This feature is not available yet");
+}
+
+
+
+ //images
+  var i=0;
+  var images=[];
+  var time =5000;
+
+  //image list
+  images[0]='assets/images/IMG_4067-1.jpeg';
+  images[1]='assets/images/IMG-20220115-WA0105.jpg';
+  images[2]='assets/images/1677929793943.jpg';
+
+
+
+  //change images
+  function changeimg(argument) {
+    // body...
+    document.slid.src=images[i];
+    
+    if (i< images.length - 1) {
+      i++;
+    }
+    else{
+      i=0;
+    }
+    setTimeout("changeimg()",time);
+  }
+  window.onload = changeimg;
+
+
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+<script>
+function showProfile(profileId) {
+  document.getElementById("profile-" + profileId).style.display = "block";
+}
+
+function closeProfile(profileId) {
+  document.getElementById("profile-" + profileId).style.display = "none";
+}
+</script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
+
